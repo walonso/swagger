@@ -31,6 +31,39 @@ https://localhost:5001/swagger
 
 ENJOY YOU'VE JUST FINISHED ADDING SWAGGER TO YOUR PROJECT.
 
+7. Add API info and description.
+Go to Startup.cs to ConfigureServices to method AddSwaggerGen and add API info and description, example:
+services.AddSwaggerGen(c =>
+{
+    c.SwaggerDoc("v1", new OpenApiInfo
+    {
+    Version = "v1",
+    Title = "Swagger web API",
+    Description = "A simple example ASP.NET Core Web API with Swagger",
+    TermsOfService = new Uri("https://github.com/walonso/swagger"),
+    Contact = new OpenApiContact
+    {
+    Name = "Walter Alonso",
+    Email = string.Empty,
+    Url = new Uri("https://github.com/walonso/swagger"),
+    },
+    License = new OpenApiLicense
+    {
+    Name = "Use under LICX",
+    Url = new Uri("https://github.com/walonso/swagger"),
+    }
+    });
+});
+
+8. Add Summary and DataAnnotations
+
+9. It is possible modify the theme and styles to Swagger to match your brand's company.
+Check here to more detail: https://docs.microsoft.com/en-us/aspnet/core/tutorials/getting-started-with-swashbuckle?view=aspnetcore-3.1&tabs=visual-studio-code
+
+
+Reference Site: https://docs.microsoft.com/en-us/aspnet/core/tutorials/getting-started-with-swashbuckle?view=aspnetcore-3.1&tabs=visual-studio-code
+
+			
 	
 	
 	

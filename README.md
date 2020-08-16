@@ -62,15 +62,3 @@ Check here to more detail: https://docs.microsoft.com/en-us/aspnet/core/tutorial
 
 
 Reference Site: https://docs.microsoft.com/en-us/aspnet/core/tutorials/getting-started-with-swashbuckle?view=aspnetcore-3.1&tabs=visual-studio-code
-
-			
-	
-	
-	
-https://github.com/dotnet/AspNetCore.Docs/issues/9488
-
-
-
-
-admin
-Uq-4GIt3M
